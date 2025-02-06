@@ -16,7 +16,7 @@ const App = () => {
       <div className='relative z-0' style={{
         backgroundColor: 'var(--color-primary)',
       }}>
-        <div className='bg-cover bg-no-repeat bg-center' style={{ backgroundImage:'var(--background-hero-pattern)' }}>
+        <div className='bg-cover bg-no-repeat bg-center ' style={{ backgroundImage:'var(--background-hero-pattern)' }}>
           <Navbar />
           <Hero />
         </div>
